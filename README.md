@@ -9,6 +9,9 @@ If you want to add Spectral to your Git pre-commit hooks and you're using [pre-c
 ```yaml
 repos:
 -   repo: https://github.com/spectralops/spectral-pre-commit
+    rev: master
     hooks:
     - id: spectral
 ```
+
+See [spectralops/spectral-example-pre-commit](https://github.com/SpectralOps/spectral-example-pre-commit) for a living example.
