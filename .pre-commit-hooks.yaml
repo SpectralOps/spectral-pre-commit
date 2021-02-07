@@ -1,7 +1,7 @@
 -   id: spectral
     name: spectral scanner
-    description: "Spectral: Breach Protection for Developers"
+    description: "Spectral: Automated Code Security for Modern Teams"
     language: docker_image
-    entry: jondot/spectral
+    entry: SpectralOps/spectral
     pass_filenames: false
     args: ["spectral", "run"]
