@@ -1,7 +1,6 @@
 -   id: spectral
     name: spectral scanner
     description: "Spectral: Automated Code Security for Modern Teams"
-    language: docker_image
-    entry: SpectralOps/spectral
+    language: system
+    entry: spectral scan --nosend
     pass_filenames: false
-    args: ["spectral", "run"]
