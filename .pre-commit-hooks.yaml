@@ -2,5 +2,5 @@
     name: spectral scanner
     description: "Spectral: Automated Code Security for Modern Teams"
     language: system
-    entry: spectral test
+    entry: spectral
     pass_filenames: false
