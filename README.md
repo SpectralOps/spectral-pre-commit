@@ -16,7 +16,8 @@ If you want to add Spectral to your Git pre-commit hooks and you're using [pre-c
         hooks:
         - id: spectral
     ```
-2. Make sure you have the spectral executable in your PATH. 
-3. Make sure you have your Spectral DSN (`spk-xxx`) as an env var.
+2. Run `pre-commit install` to install Spectral as a pre-commit hook for your repo. 
+3. Make sure you have the spectral executable in your PATH. 
+4. Make sure you have your Spectral DSN (`spk-xxx`) as an env var.
 
 See [spectralops/spectral-example-pre-commit](https://github.com/SpectralOps/spectral-example-pre-commit) for a live example.
