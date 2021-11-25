@@ -2,5 +2,5 @@
     name: spectral scanner
     description: "Spectral: Automated Code Security for Modern Teams"
     language: system
-    entry: ~/.spectral/spectral scan --unstaged
+    entry: bash -c  '$HOME/.spectral/spectral scan --unstaged'
     pass_filenames: false
